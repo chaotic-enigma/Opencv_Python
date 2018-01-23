@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 
 captured = cv2.VideoCapture(0) # 0 - first webcam in my system
-										 # 1 - second webcam in my system ...
+			       # 1 - second webcam in my system ...
 
 # save video
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
