@@ -2,7 +2,7 @@
 Morphological transformations to remove noise form the filters
 
 erosion --> the gradual destruction or diminution of something (in this case, color of pixels in the image)
-dilation --> opposite of erosion (basically increasing or widening)
+dilation --> opposite of erosion (basically, increasing or widening)
 opening --> filters from the background (fasle positive)
 closing --> filters from the foreground (false negative)
 
