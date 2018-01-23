@@ -13,7 +13,7 @@ min_val,max_val,min_loc,max_loc = cv2.minMaxLoc(res) # unpack and find the locat
 top_left = min_loc
 bottom_right = (top_left[0] + w,top_left[1] + h)
 
-cv2.rectangle(img,top_left,bottom_right,55,2) # draw a rectangle having color 255 and with thickness 2
+cv2.rectangle(img,top_left,bottom_right,55,2) # draw a rectangle having color 55 and with thickness 2
 
 cv2.imshow('chess',img)
 cv2.imwrite('camel_matched.jpg',img)
