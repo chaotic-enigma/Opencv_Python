@@ -12,7 +12,7 @@ while True:
 	upper_red = np.array([180,255,255])
 
 	mask = cv2.inRange(hsv,lower_red,upper_red)
-	res = cv2.bitwise_and(frame,frame,mask=mask) # where there is something in the frame where the mask (0 or 1) is true
+	res = cv2.bitwise_and(frame,frame,mask=mask) # where there is something in the frame, where the mask (0 or 1) is true
 	# if mask in range -> 1 (white), else 0
 
 	kernel = np.ones((15,15),np.float32)/255
