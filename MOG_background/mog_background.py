@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 
 capture = cv2.VideoCapture('people-walking.mp4')
+# foreground and background
 fgbg = cv2.createBackgroundSubtractorMOG2() # background subtraction
 
 while True:
