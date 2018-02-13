@@ -10,7 +10,7 @@ while True:
 
     cv2.imshow('original',frame)
     cv2.imshow('fgbg',fgmask)
-
+    
     k = cv2.waitKey(30) & 0xff
 
     if k == 27:
